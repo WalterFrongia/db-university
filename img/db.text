@@ -22,9 +22,18 @@ QUERY 3
     WHERE `date_of_birth` < "1991/10/20" 
 /
 
+
 QUERY 4
 
     SELECT *
     FROM `courses` 
     WHERE `period` = "I semestre" AND `year` = "1" 
+/
+
+
+QUERY 5
+
+    SELECT *
+    FROM `exams`
+    WHERE `date` = "2020/06/20" and `hour` > "14%" 
 /
