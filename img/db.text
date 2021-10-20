@@ -37,3 +37,11 @@ QUERY 5
     FROM `exams`
     WHERE `date` = "2020/06/20" and `hour` > "14%" 
 /
+
+
+QUERY 6
+
+    SELECT *
+    FROM `degrees`
+    WHERE `level` = "magistrale" 
+/
