@@ -52,3 +52,10 @@ QUERY 7
     SELECT *
     FROM `departments`
 /
+
+
+QUERY 8 
+    SELECT *
+    FROM `teachers`
+    WHERE `phone` IS NULL 
+/
