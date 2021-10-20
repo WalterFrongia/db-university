@@ -21,3 +21,10 @@ QUERY 3
     FROM `students`
     WHERE `date_of_birth` < "1991/10/20" 
 /
+
+QUERY 4
+
+    SELECT *
+    FROM `courses` 
+    WHERE `period` = "I semestre" AND `year` = "1" 
+/
