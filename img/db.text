@@ -45,3 +45,10 @@ QUERY 6
     FROM `degrees`
     WHERE `level` = "magistrale" 
 /
+
+
+QUERY 7
+
+    SELECT *
+    FROM `departments`
+/
