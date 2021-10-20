@@ -55,6 +55,7 @@ QUERY 7
 
 
 QUERY 8 
+
     SELECT *
     FROM `teachers`
     WHERE `phone` IS NULL 
