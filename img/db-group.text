@@ -13,5 +13,5 @@ QUERY 2
     SELECT COUNT(*) AS num_teachers , `office_address` 
     FROM `teachers` 
     GROUP BY `office_address` 
-    
+
 /
