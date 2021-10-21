@@ -19,7 +19,8 @@ QUERY 3
 
     SELECT *
     FROM `students`
-    WHERE `date_of_birth` < "1991/10/20" 
+    WHERE TIMESTAMPDIFF(YEAR,date_of_birth,CURDATE()) > 25
+    ORDER BY `date_of_birth` DESC
 /
 
 
