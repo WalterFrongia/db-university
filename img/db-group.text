@@ -1,9 +1,9 @@
 
 QUERY 1 
 
-    select COUNT(*) AS num_students , YEAR(enrolment_date) AS year
-    from `students` 
-    group by year
+    SELECT COUNT(*) AS num_students , YEAR(enrolment_date) AS year
+    FROM `students` 
+    GROUP BY year
 
 /
 
