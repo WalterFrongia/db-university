@@ -7,3 +7,12 @@ QUERY 1
     WHERE degrees.name = "Corso di Laurea in Economia"
     
 /
+
+
+QUERY 2
+
+    SELECT degrees.name , degrees.level 
+    FROM `degrees` 
+    JOIN departments ON departments.id = degrees.department_id WHERE departments.name = "Dipartimento di Neuroscienze"
+      
+/
