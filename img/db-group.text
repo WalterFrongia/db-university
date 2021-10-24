@@ -24,3 +24,10 @@ QUERY 3
     GROUP BY `exam_id` 
 /
 
+QUERY 4
+
+    SELECT COUNT(*) `department_id`
+    FROM `degrees` 
+    GROUP BY `department_id`
+     
+/
